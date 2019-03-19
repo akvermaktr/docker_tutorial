@@ -15,7 +15,11 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1552988970,,"wq"
+|2,0,1552990124,,"wq"
+:nuset nu
+|2,0,1552990004,,"nuset nu"
+:set nu
+|2,0,1552989998,,"set nu"
 :q!
 |2,0,1552988590,,"q!"
 :WQ
@@ -54,36 +58,76 @@
 |3,0,5,1,1,0,1552988358,"  res.send('Hi, there, buyer there');dd"
 
 # File marks:
-'0  12  0  ~/visitors/Dockerfile
-|4,48,12,0,1552988970,"~/visitors/Dockerfile"
-'1  19  33  ~/visitors/index.js
-|4,49,19,33,1552988823,"~/visitors/index.js"
-'2  7  19  ~/visitors/package.json
-|4,50,7,19,1552988206,"~/visitors/package.json"
-'3  1  0  ~/visitors/package.json
-|4,51,1,0,1552988126,"~/visitors/package.json"
-'4  1  0  ~/visitors/package.json
-|4,52,1,0,1552988126,"~/visitors/package.json"
-'5  6  33  ~/simpleweb/index.js
-|4,53,6,33,1552986824,"~/simpleweb/index.js"
-'6  5  0  ~/simpleweb/Dockerfile
-|4,54,5,0,1552986569,"~/simpleweb/Dockerfile"
-'7  7  0  ~/simpleweb/Dockerfile
-|4,55,7,0,1552985954,"~/simpleweb/Dockerfile"
-'8  7  0  ~/simpleweb/Dockerfile
-|4,56,7,0,1552985954,"~/simpleweb/Dockerfile"
-'9  11  0  ~/simpleweb/Dockerfile
-|4,57,11,0,1552984205,"~/simpleweb/Dockerfile"
+'0  6  21  ~/visitors/index.js
+|4,48,6,21,1552990127,"~/visitors/index.js"
+'1  8  19  ~/visitors/docker-compose.yml
+|4,49,8,19,1552990028,"~/visitors/docker-compose.yml"
+'2  12  0  ~/visitors/Dockerfile
+|4,50,12,0,1552988970,"~/visitors/Dockerfile"
+'3  21  33  ~/visitors/index.js
+|4,51,21,33,1552988823,"~/visitors/index.js"
+'4  19  33  ~/visitors/index.js
+|4,52,19,33,1552988823,"~/visitors/index.js"
+'5  7  19  ~/visitors/package.json
+|4,53,7,19,1552988206,"~/visitors/package.json"
+'6  1  0  ~/visitors/package.json
+|4,54,1,0,1552988126,"~/visitors/package.json"
+'7  1  0  ~/visitors/package.json
+|4,55,1,0,1552988126,"~/visitors/package.json"
+'8  6  33  ~/simpleweb/index.js
+|4,56,6,33,1552986824,"~/simpleweb/index.js"
+'9  5  0  ~/simpleweb/Dockerfile
+|4,57,5,0,1552986569,"~/simpleweb/Dockerfile"
 
 # Jumplist (newest first):
+-'  6  21  ~/visitors/index.js
+|4,39,6,21,1552990127,"~/visitors/index.js"
+-'  5  33  ~/visitors/index.js
+|4,39,5,33,1552990099,"~/visitors/index.js"
+-'  3  0  ~/visitors/index.js
+|4,39,3,0,1552990087,"~/visitors/index.js"
+-'  1  0  ~/visitors/index.js
+|4,39,1,0,1552990076,"~/visitors/index.js"
+-'  8  19  ~/visitors/docker-compose.yml
+|4,39,8,19,1552990028,"~/visitors/docker-compose.yml"
+-'  8  19  ~/visitors/docker-compose.yml
+|4,39,8,19,1552990028,"~/visitors/docker-compose.yml"
+-'  1  0  ~/visitors/docker-compose.yml
+|4,39,1,0,1552989802,"~/visitors/docker-compose.yml"
+-'  1  0  ~/visitors/docker-compose.yml
+|4,39,1,0,1552989802,"~/visitors/docker-compose.yml"
+-'  12  0  ~/visitors/Dockerfile
+|4,39,12,0,1552988970,"~/visitors/Dockerfile"
+-'  12  0  ~/visitors/Dockerfile
+|4,39,12,0,1552988970,"~/visitors/Dockerfile"
+-'  12  0  ~/visitors/Dockerfile
+|4,39,12,0,1552988970,"~/visitors/Dockerfile"
 -'  12  0  ~/visitors/Dockerfile
 |4,39,12,0,1552988970,"~/visitors/Dockerfile"
 -'  1  0  ~/visitors/Dockerfile
 |4,39,1,0,1552988883,"~/visitors/Dockerfile"
+-'  1  0  ~/visitors/Dockerfile
+|4,39,1,0,1552988883,"~/visitors/Dockerfile"
+-'  1  0  ~/visitors/Dockerfile
+|4,39,1,0,1552988883,"~/visitors/Dockerfile"
+-'  1  0  ~/visitors/Dockerfile
+|4,39,1,0,1552988883,"~/visitors/Dockerfile"
+-'  21  33  ~/visitors/index.js
+|4,39,21,33,1552988823,"~/visitors/index.js"
 -'  19  33  ~/visitors/index.js
 |4,39,19,33,1552988823,"~/visitors/index.js"
 -'  19  33  ~/visitors/index.js
 |4,39,19,33,1552988823,"~/visitors/index.js"
+-'  19  33  ~/visitors/index.js
+|4,39,19,33,1552988823,"~/visitors/index.js"
+-'  19  33  ~/visitors/index.js
+|4,39,19,33,1552988823,"~/visitors/index.js"
+-'  12  38  ~/visitors/index.js
+|4,39,12,38,1552988660,"~/visitors/index.js"
+-'  10  38  ~/visitors/index.js
+|4,39,10,38,1552988660,"~/visitors/index.js"
+-'  10  38  ~/visitors/index.js
+|4,39,10,38,1552988660,"~/visitors/index.js"
 -'  10  38  ~/visitors/index.js
 |4,39,10,38,1552988660,"~/visitors/index.js"
 -'  10  38  ~/visitors/index.js
@@ -92,10 +136,26 @@
 |4,39,1,0,1552988636,"~/visitors/index.js"
 -'  1  0  ~/visitors/index.js
 |4,39,1,0,1552988636,"~/visitors/index.js"
+-'  1  0  ~/visitors/index.js
+|4,39,1,0,1552988636,"~/visitors/index.js"
+-'  1  0  ~/visitors/index.js
+|4,39,1,0,1552988636,"~/visitors/index.js"
+-'  11  41  ~/visitors/index.js
+|4,39,11,41,1552988629,"~/visitors/index.js"
 -'  9  41  ~/visitors/index.js
 |4,39,9,41,1552988629,"~/visitors/index.js"
 -'  9  41  ~/visitors/index.js
 |4,39,9,41,1552988629,"~/visitors/index.js"
+-'  9  41  ~/visitors/index.js
+|4,39,9,41,1552988629,"~/visitors/index.js"
+-'  9  41  ~/visitors/index.js
+|4,39,9,41,1552988629,"~/visitors/index.js"
+-'  22  2  ~/visitors/index.js
+|4,39,22,2,1552988578,"~/visitors/index.js"
+-'  20  2  ~/visitors/index.js
+|4,39,20,2,1552988578,"~/visitors/index.js"
+-'  20  2  ~/visitors/index.js
+|4,39,20,2,1552988578,"~/visitors/index.js"
 -'  20  2  ~/visitors/index.js
 |4,39,20,2,1552988578,"~/visitors/index.js"
 -'  20  2  ~/visitors/index.js
@@ -108,6 +168,30 @@
 |4,39,7,19,1552988206,"~/visitors/package.json"
 -'  7  19  ~/visitors/package.json
 |4,39,7,19,1552988206,"~/visitors/package.json"
+-'  7  19  ~/visitors/package.json
+|4,39,7,19,1552988206,"~/visitors/package.json"
+-'  7  19  ~/visitors/package.json
+|4,39,7,19,1552988206,"~/visitors/package.json"
+-'  7  19  ~/visitors/package.json
+|4,39,7,19,1552988206,"~/visitors/package.json"
+-'  7  19  ~/visitors/package.json
+|4,39,7,19,1552988206,"~/visitors/package.json"
+-'  7  19  ~/visitors/package.json
+|4,39,7,19,1552988206,"~/visitors/package.json"
+-'  7  19  ~/visitors/package.json
+|4,39,7,19,1552988206,"~/visitors/package.json"
+-'  7  19  ~/visitors/package.json
+|4,39,7,19,1552988206,"~/visitors/package.json"
+-'  7  19  ~/visitors/package.json
+|4,39,7,19,1552988206,"~/visitors/package.json"
+-'  7  19  ~/visitors/package.json
+|4,39,7,19,1552988206,"~/visitors/package.json"
+-'  7  19  ~/visitors/package.json
+|4,39,7,19,1552988206,"~/visitors/package.json"
+-'  7  19  ~/visitors/package.json
+|4,39,7,19,1552988206,"~/visitors/package.json"
+-'  7  19  ~/visitors/package.json
+|4,39,7,19,1552988206,"~/visitors/package.json"
 -'  1  0  ~/visitors/package.json
 |4,39,1,0,1552988153,"~/visitors/package.json"
 -'  1  0  ~/visitors/package.json
@@ -116,6 +200,54 @@
 |4,39,1,0,1552988153,"~/visitors/package.json"
 -'  1  0  ~/visitors/package.json
 |4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988126,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988126,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988126,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988126,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988126,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988126,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988126,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988126,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988126,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988126,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988126,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988126,"~/visitors/package.json"
 -'  1  0  ~/visitors/package.json
 |4,39,1,0,1552988126,"~/visitors/package.json"
 -'  1  0  ~/visitors/package.json
@@ -148,136 +280,40 @@
 |4,39,6,33,1552986824,"~/simpleweb/index.js"
 -'  6  33  ~/simpleweb/index.js
 |4,39,6,33,1552986824,"~/simpleweb/index.js"
--'  6  33  ~/simpleweb/index.js
-|4,39,6,33,1552986824,"~/simpleweb/index.js"
--'  6  33  ~/simpleweb/index.js
-|4,39,6,33,1552986824,"~/simpleweb/index.js"
--'  6  33  ~/simpleweb/index.js
-|4,39,6,33,1552986824,"~/simpleweb/index.js"
--'  6  33  ~/simpleweb/index.js
-|4,39,6,33,1552986824,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  1  0  ~/simpleweb/index.js
-|4,39,1,0,1552986809,"~/simpleweb/index.js"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  5  0  ~/simpleweb/Dockerfile
-|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
 
 # History of marks within files (newest to oldest):
+
+> ~/visitors/index.js
+	*	1552990123	0
+	"	6	21
+	^	6	22
+	.	6	21
+	+	2	28
+	+	5	35
+	+	17	0
+	+	11	41
+	+	11	2
+	+	11	4
+	+	11	44
+	+	22	24
+	+	22	0
+	+	12	0
+	+	9	24
+	+	12	41
+	+	13	46
+	+	15	0
+	+	20	14
+	+	21	33
+	+	5	35
+	+	6	21
+
+> ~/visitors/docker-compose.yml
+	*	1552990026	0
+	"	8	19
+	^	8	20
+	.	4	20
+	+	8	19
+	+	4	20
 
 > ~/visitors/Dockerfile
 	*	1552988968	0
@@ -286,28 +322,6 @@
 	+	6	12
 	+	10	8
 	+	12	0
-
-> ~/visitors/index.js
-	*	1552988823	0
-	"	19	33
-	^	19	34
-	.	19	33
-	+	2	28
-	+	5	35
-	+	15	0
-	+	9	41
-	+	9	2
-	+	9	4
-	+	9	44
-	+	20	24
-	+	20	0
-	+	10	0
-	+	7	24
-	+	10	41
-	+	11	46
-	+	13	0
-	+	18	14
-	+	19	33
 
 > ~/visitors/package.json
 	*	1552988205	0
