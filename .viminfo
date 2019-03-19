@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1552988823,,"wq"
+|2,0,1552988970,,"wq"
 :q!
 |2,0,1552988590,,"q!"
 :WQ
@@ -38,50 +38,88 @@
 	const express = require('express');
 |3,0,0,1,1,0,1552988291,"const express = require('express');"
 ""1	LINE	0
+	#EXPOSE 8080
+|3,1,1,1,1,0,1552988967,"#EXPOSE 8080"
+"2	LINE	0
+	
+|3,0,2,1,1,0,1552988965,""
+"3	LINE	0
+	RUN npm install 
+|3,0,3,1,1,0,1552988965,"RUN npm install "
+"4	LINE	0
+	COPY ./ .dd/
+|3,0,4,1,1,0,1552988964,"COPY ./ .dd/"
+"5	LINE	0
 	  res.send('Hi, there, buyer there');dd
-|3,1,1,1,1,0,1552988358,"  res.send('Hi, there, buyer there');dd"
+|3,0,5,1,1,0,1552988358,"  res.send('Hi, there, buyer there');dd"
 
 # File marks:
-'0  19  33  ~/visitors/index.js
-|4,48,19,33,1552988823,"~/visitors/index.js"
-'1  7  19  ~/visitors/package.json
-|4,49,7,19,1552988206,"~/visitors/package.json"
-'2  1  0  ~/visitors/package.json
-|4,50,1,0,1552988126,"~/visitors/package.json"
+'0  12  0  ~/visitors/Dockerfile
+|4,48,12,0,1552988970,"~/visitors/Dockerfile"
+'1  19  33  ~/visitors/index.js
+|4,49,19,33,1552988823,"~/visitors/index.js"
+'2  7  19  ~/visitors/package.json
+|4,50,7,19,1552988206,"~/visitors/package.json"
 '3  1  0  ~/visitors/package.json
 |4,51,1,0,1552988126,"~/visitors/package.json"
-'4  6  33  ~/simpleweb/index.js
-|4,52,6,33,1552986824,"~/simpleweb/index.js"
-'5  5  0  ~/simpleweb/Dockerfile
-|4,53,5,0,1552986569,"~/simpleweb/Dockerfile"
-'6  7  0  ~/simpleweb/Dockerfile
-|4,54,7,0,1552985954,"~/simpleweb/Dockerfile"
+'4  1  0  ~/visitors/package.json
+|4,52,1,0,1552988126,"~/visitors/package.json"
+'5  6  33  ~/simpleweb/index.js
+|4,53,6,33,1552986824,"~/simpleweb/index.js"
+'6  5  0  ~/simpleweb/Dockerfile
+|4,54,5,0,1552986569,"~/simpleweb/Dockerfile"
 '7  7  0  ~/simpleweb/Dockerfile
 |4,55,7,0,1552985954,"~/simpleweb/Dockerfile"
-'8  11  0  ~/simpleweb/Dockerfile
-|4,56,11,0,1552984205,"~/simpleweb/Dockerfile"
-'9  9  0  ~/simpleweb/Dockerfile
-|4,57,9,0,1552984205,"~/simpleweb/Dockerfile"
+'8  7  0  ~/simpleweb/Dockerfile
+|4,56,7,0,1552985954,"~/simpleweb/Dockerfile"
+'9  11  0  ~/simpleweb/Dockerfile
+|4,57,11,0,1552984205,"~/simpleweb/Dockerfile"
 
 # Jumplist (newest first):
+-'  12  0  ~/visitors/Dockerfile
+|4,39,12,0,1552988970,"~/visitors/Dockerfile"
+-'  1  0  ~/visitors/Dockerfile
+|4,39,1,0,1552988883,"~/visitors/Dockerfile"
+-'  19  33  ~/visitors/index.js
+|4,39,19,33,1552988823,"~/visitors/index.js"
 -'  19  33  ~/visitors/index.js
 |4,39,19,33,1552988823,"~/visitors/index.js"
 -'  10  38  ~/visitors/index.js
 |4,39,10,38,1552988660,"~/visitors/index.js"
+-'  10  38  ~/visitors/index.js
+|4,39,10,38,1552988660,"~/visitors/index.js"
+-'  1  0  ~/visitors/index.js
+|4,39,1,0,1552988636,"~/visitors/index.js"
 -'  1  0  ~/visitors/index.js
 |4,39,1,0,1552988636,"~/visitors/index.js"
 -'  9  41  ~/visitors/index.js
 |4,39,9,41,1552988629,"~/visitors/index.js"
+-'  9  41  ~/visitors/index.js
+|4,39,9,41,1552988629,"~/visitors/index.js"
+-'  20  2  ~/visitors/index.js
+|4,39,20,2,1552988578,"~/visitors/index.js"
 -'  20  2  ~/visitors/index.js
 |4,39,20,2,1552988578,"~/visitors/index.js"
 -'  7  19  ~/visitors/package.json
 |4,39,7,19,1552988206,"~/visitors/package.json"
 -'  7  19  ~/visitors/package.json
 |4,39,7,19,1552988206,"~/visitors/package.json"
+-'  7  19  ~/visitors/package.json
+|4,39,7,19,1552988206,"~/visitors/package.json"
+-'  7  19  ~/visitors/package.json
+|4,39,7,19,1552988206,"~/visitors/package.json"
 -'  1  0  ~/visitors/package.json
 |4,39,1,0,1552988153,"~/visitors/package.json"
 -'  1  0  ~/visitors/package.json
 |4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988153,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988126,"~/visitors/package.json"
+-'  1  0  ~/visitors/package.json
+|4,39,1,0,1552988126,"~/visitors/package.json"
 -'  1  0  ~/visitors/package.json
 |4,39,1,0,1552988126,"~/visitors/package.json"
 -'  1  0  ~/visitors/package.json
@@ -102,6 +140,38 @@
 |4,39,6,33,1552986824,"~/simpleweb/index.js"
 -'  6  33  ~/simpleweb/index.js
 |4,39,6,33,1552986824,"~/simpleweb/index.js"
+-'  6  33  ~/simpleweb/index.js
+|4,39,6,33,1552986824,"~/simpleweb/index.js"
+-'  6  33  ~/simpleweb/index.js
+|4,39,6,33,1552986824,"~/simpleweb/index.js"
+-'  6  33  ~/simpleweb/index.js
+|4,39,6,33,1552986824,"~/simpleweb/index.js"
+-'  6  33  ~/simpleweb/index.js
+|4,39,6,33,1552986824,"~/simpleweb/index.js"
+-'  6  33  ~/simpleweb/index.js
+|4,39,6,33,1552986824,"~/simpleweb/index.js"
+-'  6  33  ~/simpleweb/index.js
+|4,39,6,33,1552986824,"~/simpleweb/index.js"
+-'  6  33  ~/simpleweb/index.js
+|4,39,6,33,1552986824,"~/simpleweb/index.js"
+-'  6  33  ~/simpleweb/index.js
+|4,39,6,33,1552986824,"~/simpleweb/index.js"
+-'  1  0  ~/simpleweb/index.js
+|4,39,1,0,1552986809,"~/simpleweb/index.js"
+-'  1  0  ~/simpleweb/index.js
+|4,39,1,0,1552986809,"~/simpleweb/index.js"
+-'  1  0  ~/simpleweb/index.js
+|4,39,1,0,1552986809,"~/simpleweb/index.js"
+-'  1  0  ~/simpleweb/index.js
+|4,39,1,0,1552986809,"~/simpleweb/index.js"
+-'  1  0  ~/simpleweb/index.js
+|4,39,1,0,1552986809,"~/simpleweb/index.js"
+-'  1  0  ~/simpleweb/index.js
+|4,39,1,0,1552986809,"~/simpleweb/index.js"
+-'  1  0  ~/simpleweb/index.js
+|4,39,1,0,1552986809,"~/simpleweb/index.js"
+-'  1  0  ~/simpleweb/index.js
+|4,39,1,0,1552986809,"~/simpleweb/index.js"
 -'  1  0  ~/simpleweb/index.js
 |4,39,1,0,1552986809,"~/simpleweb/index.js"
 -'  1  0  ~/simpleweb/index.js
@@ -150,6 +220,38 @@
 |4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
 -'  5  0  ~/simpleweb/Dockerfile
 |4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
+-'  5  0  ~/simpleweb/Dockerfile
+|4,39,5,0,1552986569,"~/simpleweb/Dockerfile"
 -'  1  0  ~/simpleweb/Dockerfile
 |4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
 -'  1  0  ~/simpleweb/Dockerfile
@@ -174,98 +276,16 @@
 |4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
 -'  1  0  ~/simpleweb/Dockerfile
 |4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552986561,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  7  0  ~/simpleweb/Dockerfile
-|4,39,7,0,1552985954,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552985889,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552985889,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552985889,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552985889,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552985889,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552985889,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552985889,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552985889,"~/simpleweb/Dockerfile"
--'  1  0  ~/simpleweb/Dockerfile
-|4,39,1,0,1552985889,"~/simpleweb/Dockerfile"
 
 # History of marks within files (newest to oldest):
+
+> ~/visitors/Dockerfile
+	*	1552988968	0
+	"	12	0
+	.	12	0
+	+	6	12
+	+	10	8
+	+	12	0
 
 > ~/visitors/index.js
 	*	1552988823	0
